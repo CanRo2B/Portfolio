@@ -8,12 +8,12 @@
 }
 
 body {
-    background-color:#0000ff;
-    color: #ffffff;
+    background-color: var(--background-color);
+    color: var(--color);
 }
 
 header {
-    color: #ff0000de;
+    color: var(--Emphasis-color);
     font-size: 48px;
     display: flex;
 }
@@ -42,17 +42,18 @@ a {
     text-align:center;
     list-style: none;
     padding: 15px;
-    color:#ffff00
+    color: var(--border-color)
 }
 
 .nav-bar a:hover {
-    color:#ffffff;
+    color: var(--color);
 
 }
 
- #background-image {
+ #background-image, 
+ #Flexbox-Work {
     display: flex;
-    margin: 0;
+    margin: auto;
 }
 
 #Container-background-image {
@@ -60,10 +61,15 @@ a {
     width: 100%;
 }
 
+#Learning {
+    max-height: 200pt;
+    width: 100%;
+}
+
 .container {
     position: relative;
     text-align: center;
-    color:#ffffff
+    color: var(--color)
 }
 
 .in-picture {
@@ -74,15 +80,11 @@ a {
     color: var(--color)
 }
 
-.Flexbox-Work {
-    display: flex;
-    margin: 10px;
-}
-
-.Learning {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    border-color: var(--hover-color)
+.All-Captions {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 30px;
+    color: var(--hover-color);
 }
 
