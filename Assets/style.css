@@ -18,10 +18,15 @@ header {
     display: flex;
 }
 
+h2 {
+    font-size: 35px;
+    Padding 5pt;
+}
+
 .nav-bar {
     display: inline-block;
-    justify-content: flex-end;
-    font-size: 24px;
+    justify-content:right;
+    font-size: 20px;
     padding: 10px;
     margin: auto;
 
@@ -35,7 +40,7 @@ ul {
 
 li {
     display: inline-block;
-    margin-right: 0;
+    justify-content: flex-end;
 }
 
 a {
@@ -45,25 +50,13 @@ a {
     color: var(--border-color)
 }
 
+section::after {
+    padding-bottom: 24pt;
+}
+
 .nav-bar a:hover {
     color: var(--color);
 
-}
-
- #background-image, 
- #Flexbox-Work {
-    display: flex;
-    margin: auto;
-}
-
-#Container-background-image {
-    max-height: 200pt;
-    width: 100%;
-}
-
-#Learning {
-    max-height: 200pt;
-    width: 100%;
 }
 
 .container {
@@ -72,6 +65,24 @@ a {
     color: var(--color)
 }
 
+#Container-background-image {
+    height: 200pt;
+    width: 100%;
+}
+
+.Learn-box {
+    display:flex;
+}
+
+#Learning {
+    flex: 4;
+    height: 150pt;
+    width: 100%;
+    Padding: 10pt;
+}
+
+
+
 .in-picture {
     position: absolute;
     bottom: 8px;
@@ -79,6 +90,50 @@ a {
     font-size: 30px;
     color: var(--color)
 }
+
+.container-4 {
+    max-width: 200px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Box {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+    position: relative;
+    height: 30%;
+}
+/*
+.container-4 {
+    flex: 1 0 100%;
+    padding: 10pt;
+    margin-bottom: 1.5rem;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 200px;
+
+    padding: 10px;
+    outline: 5pt solid var(--hover-color);
+
+}
+*/
+/*.Coming-Soon,
+.Not-Decided,
+.Wait,
+.Bam {
+    flex:1
+
+}
+*/
 
 .All-Captions {
     position: absolute;
