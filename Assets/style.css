@@ -31,6 +31,7 @@ h2 {
 
 .nav-bar {
     display: inline-block;
+    flex-direction: row;
     justify-content: flex-end;
     font-size: 20px;
     padding: 10px;
@@ -71,20 +72,6 @@ a {
     color: var(--color)
 }
 
-
-.container-4 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.Box {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-style: solid var(--hover-color);
-    border-width: 5px;
-}
 #Container-background-image {
     height: 200pt;
     width: 100%;
@@ -96,9 +83,9 @@ a {
 
 #Learning {
     flex: 4;
-    height: 150pt;
-    width: 100%;
-    Padding: 10pt;
+    height: 253px;
+    width: 70%;
+    Padding: 5pt;
 }
 
 
@@ -110,6 +97,47 @@ a {
     font-size: 30px;
     color: var(--color)
 }
+
+.container-4 {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container-4 > article {
+    flex: 1 1 150px;
+    
+}
+
+/*
+.Box {
+    flex: 1 0 0;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid var(--hover-color);
+    border-width: 5px;
+}
+*/
+
+
+.All-Captions {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 30px;
+    color: var(--hover-color);
+}
+
+
+/*.container-4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+*/
 /*
 .container-4 {
     display: flex;
@@ -152,11 +180,5 @@ a {
 }
 */
 
-.All-Captions {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    font-size: 30px;
-    color: var(--hover-color);
-}
+
 
