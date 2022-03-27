@@ -3,6 +3,52 @@
     --background-color: #0000ff;
     --border-color:  #ffff00 ;
     --hover-color: #3705ad;
+    --Emphasis-color: #ff0000de;
 
+}
+
+body {
+    background-color:#0000ff;
+    color: #ffffff;
+}
+
+header {
+    color: #ff0000de;
+    font-size: 48px;
+    display: inline-block;
+}
+
+.nav-bar a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 15px;
+
+}
+
+a {
+    text-align: center;
+    padding: 15px 15px;
+    list-style: none;
+    color:#ffff00
+}
+
+.nav-bar a:hover {
+    color:#ffffff;
+
+}
+
+ #background-image {
+    display: flex;
+    margin: 0;
+}
+
+img {
+    max-height: 300px;
+    width: 100%
 }
 

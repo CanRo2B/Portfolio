@@ -4,9 +4,24 @@
 
 }
 
+html {
+    height: 100%;
+}
+
 body {
     min-height: 100%;
     line-height: 1;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+
+}
+
+h1,
+h2,
+h3 {
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace
+}
+
+ul {
+    list-style: none;
 }
