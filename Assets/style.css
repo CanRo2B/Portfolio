@@ -20,16 +20,18 @@ header {
     color: var(--Emphasis-color);
     font-size: 48px;
     display: flex;
+    padding: 15px;
 }
 
 h2 {
+    justify-self: flex-start;
     font-size: 35px;
     Padding: 5pt;
 }
 
 .nav-bar {
     display: inline-block;
-    justify-content: space-between;
+    justify-content: flex-end;
     font-size: 20px;
     padding: 10px;
     margin: auto;
@@ -54,8 +56,8 @@ a {
     color: var(--border-color)
 }
 
-section::after {
-    padding-bottom: 24pt;
+#About-Me::after {
+    padding-bottom: 24px;
 }
 
 .nav-bar a:hover {
@@ -69,6 +71,20 @@ section::after {
     color: var(--color)
 }
 
+
+.container-4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.Box {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid var(--hover-color);
+    border-width: 5px;
+}
 #Container-background-image {
     height: 200pt;
     width: 100%;
@@ -94,20 +110,15 @@ section::after {
     font-size: 30px;
     color: var(--color)
 }
-
+/*
 .container-4 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
 }
+*/
 
-.Box {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-style: solid var(--hover-color);
-    border-width: 5px;
-}
+
 /*
 .box img {
     height: 200pt;
