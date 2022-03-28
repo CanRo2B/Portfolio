@@ -20,6 +20,8 @@ header {
     font-size: 48px;
     display: flex;
     padding: 15px;
+    justify-content: space-between;
+    
 }
 /* Name Color */
 h1 {
@@ -33,11 +35,17 @@ h2 {
     Padding: 5pt;
 }
 
-nav {
-    display: inline-block;
+
+ul {
+    justify-content: space-between;
 }
+
+li {
+    display: inline-block;
+    justify-content: right;
+}
+
 a {
-    justify-content: flex-end;
     color: var(--border-color);
     font-size: 25px;
     padding: 20px;
