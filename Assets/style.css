@@ -16,12 +16,13 @@ body {
     color: var(--color);
 }
 
+/* Start of Navigation Flexbox */
 header {
     font-size: 48px;
     display: flex;
     padding: 15px;
     justify-content: space-between;
-    
+
 }
 /* Name Color */
 h1 {
@@ -35,14 +36,13 @@ h2 {
     Padding: 5pt;
 }
 
-
+/* Navigation bar flex-box info */
 ul {
     justify-content: space-between;
 }
 
 li {
     display: inline-block;
-    justify-content: right;
 }
 
 a {
@@ -50,20 +50,13 @@ a {
     font-size: 25px;
     padding: 20px;
     margin: auto;
-    
-
 }
 
 img {
     justify-content: flex-end;
     text-align:center;
     list-style: none;
-    padding: 15px;
     color: var(--border-color)
-}
-
-#About-Me-text {
-    padding-bottom: 40px;
 }
 
 .nav-bar a:hover {
@@ -77,23 +70,11 @@ img {
     color: var(--color)
 }
 
-#Container-background-image {
-    height: 200pt;
-    width: 100%;
-}
-
 .Learn-box {
     display:flex;
     justify-content: center;
     position: relative;
 }
-
-#Learning {
-    height: 80%;
-    width: 100%;
-    Padding: 5pt;
-}
-
 
 .in-picture {
     position: absolute;
@@ -103,23 +84,17 @@ img {
     color: var(--color)
 }
 
-
-
-
 .container-4 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 20pt;
     margin-left: 10pt;
-
-
 }
 
 .Box {
-    flex-wrap: wrap;
     justify-content: space-around;
-    border: 5pt solid #3705ad;
+    border: 3pt solid #3705ad;
     margin: 30pt auto;
     width: 300pt;
     height: 300pt;
@@ -150,10 +125,29 @@ img {
 .All-Captions {
     position:absolute;
     align-items: flex-start;
-    top: 8px;
-    left: 16px;
+    top: 33px;
+    left: 47px;
     font-size: 30px;
     color: var(--hover-color);
+}
+
+#About-Me-text {
+    padding-bottom: 40px;
+}
+
+#Container-background-image {
+    height: 200pt;
+    width: 100%;
+}
+
+#Learning {
+    height: 80%;
+    width: 100%;
+    border: 3pt solid var(--hover-color);
+}
+
+#Bam-Caption {
+    color: var(--color);
 }
 
 @media screen and (max-width: 768px) {
@@ -163,68 +157,12 @@ img {
     }
   
     section {
-      padding-right: 0;
-    }
+        padding-right: 0;
+      } 
   
-/*
-.Box {
-    flex: 1 0 0;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    text-align: center;
-    border-style: solid var(--hover-color);
-    border-width: 5px;
-}
-*/
-
-/*.container-4 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-*/
-/*
-.container-4 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2%;
-}
-*/
-
-
-/*
-.box img {
-    height: 200pt;
-    width: 200pt;
-*/
-/*
-.container-4 {
-    flex: 1 0 100%;
-    padding: 10pt;
-    margin-bottom: 1.5rem;
-}
-
-.container-4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    max-width: 200px;
-
-    padding: 10px;
-    outline: 5pt solid var(--hover-color);
-
-}
-*/
-/*.Coming-Soon,
-.Not-Decided,
-.Wait,
-.Bam {
-    flex:1
-
-}
-*/
-
-
+    .container-4 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2%;
+    }   
 
