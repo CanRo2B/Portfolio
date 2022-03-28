@@ -17,13 +17,17 @@ body {
 }
 
 header {
-    color: var(--Emphasis-color);
     font-size: 48px;
     display: flex;
     padding: 15px;
 }
-
+/* Name Color */
+h1 {
+    color: var(--Emphasis-color);
+}
+/* Heading info */
 h2 {
+    color: var(--Emphasis-color);
     justify-self: flex-start;
     font-size: 35px;
     Padding: 5pt;
@@ -31,10 +35,14 @@ h2 {
 
 nav {
     display: inline-block;
-    flex-direction: row;
-    font-size: 20px;
-    padding: 10px;
+}
+a {
+    justify-content: flex-end;
+    color: var(--border-color);
+    font-size: 25px;
+    padding: 20px;
     margin: auto;
+    
 
 }
 
