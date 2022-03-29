@@ -70,6 +70,12 @@ img {
     color: var(--color)
 }
 
+.About-me-pic {
+    display:flex;
+}
+
+
+
 .Learn-box {
     display:flex;
     justify-content: center;
@@ -131,8 +137,14 @@ img {
     color: var(--hover-color);
 }
 
+#Personal-picture { 
+    height: 200pt;
+    width: 200pt;
+}
+
 #About-Me-text {
     padding-bottom: 40px;
+    float: right;
 }
 
 #Container-background-image {
