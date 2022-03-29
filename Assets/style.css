@@ -56,7 +56,7 @@ a:hover {
     color: var(--color);
 
 }
-
+/* Serenity picture */
 img {
     justify-content: flex-end;
     text-align:center;
@@ -68,12 +68,14 @@ footer {
     padding-bottom: 30px;
 }
 
+/* Parent to the serenity picture */
 .container {
     position: relative;
     text-align: center;
     color: var(--color)
 }
 
+/* Parent to the first project "Learning" */
 .Learn-box {
     display:flex;
     justify-content: center;
@@ -88,6 +90,7 @@ footer {
     color: var(--color)
 }
 
+/* container-4 is the parent container for the 4 flex boxes */
 .container-4 {
     display: flex;
     flex-wrap: wrap;
@@ -105,6 +108,7 @@ footer {
     position: relative;
 }
 
+/* 4 flex boxes */
 .Coming-Soon {
     background: url(./images/jon-tyson-XmMsdtiGSfo-unsplash.jpg); 
     background-size: cover;
@@ -125,7 +129,7 @@ footer {
     background-size: cover;
 }
 
-
+/* In picture headings */
 .All-Captions {
     position:absolute;
     align-items: flex-start;
@@ -135,6 +139,7 @@ footer {
     color: var(--hover-color);
 }
 
+/* Parent to the About Me section */
 #About-Me {
     display: block;
     flex-direction: row;
@@ -142,6 +147,7 @@ footer {
 
 }
 
+/* All with the About Me section */
 #Personal-picture { 
     border-radius: 3pt solid var(--hover-color);
     display: block;
@@ -167,6 +173,7 @@ footer {
     overflow: auto;
 }
 
+/* Serenity lake picture size */
 #Container-background-image {
     height: 200pt;
     width: 100%;
@@ -178,10 +185,12 @@ footer {
     border: 3pt solid var(--hover-color);
 }
 
+/* Changed the text color for firework picture so you can see it on the dark background. */
 #Bam-Caption {
     color: var(--color);
 }
 
+/* Different screen aspect */
 @media screen and (max-width: 768px) {
     header,
     main {
