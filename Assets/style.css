@@ -144,6 +144,7 @@ footer {
     color: var(--hover-color);
 }
 
+/*About Me parent section  */
 .About-Me-Row {
     display: flex;
     flex-wrap: wrap;
@@ -153,7 +154,6 @@ footer {
     height: 250pt;
 }
 
-/* All with the About Me section */
 #Personal-picture { 
     border-radius: 3pt solid var(--hover-color);
     display:block;
@@ -233,6 +233,5 @@ footer {
         width: 200%;
     }
 
-
-
 }
+
