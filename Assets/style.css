@@ -140,37 +140,52 @@ footer {
 }
 
 /* Parent to the About Me section */
-#About-Me {
-    display: block;
+/* #About-Me {
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    flex: 1 1 1;
+} */
 
+.About-Me-Row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 200pt;
 }
 
 /* All with the About Me section */
 #Personal-picture { 
     border-radius: 3pt solid var(--hover-color);
-    display: block;
+    display:block;
+    flex-direction: row;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
     height: 200pt;
     width: 200pt;
+    padding: 10pt;
 }
 
 #About-Me-text {
-    display: block;
+    display: inline-block;
+    justify-content: flex-start;
     margin-left: 0px;
-    overflow: auto;
+    padding: 10pt;
     flex-direction: row;
+    width: 300pt;
+    height: 300pt;
+    align-items: center;
+
     
 }
 
 #About-Me-text-cont {
-    display: block;
+    display: inline-block;
     flex-direction: row;
     margin-right: 0px;
-    overflow: auto;
+    padding: 10pt;
+    width: 300pt;
+    height: 300pt;
+    align-self: center;
 }
 
 /* Serenity lake picture size */
