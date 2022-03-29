@@ -17,7 +17,7 @@ In the header, I have created a Navigation bar.  You can hover and select the di
 Note:  I have only created on project, titled "Learning".  Click on the picture to view the project.  The other four are stand alone images with no link.  In the Navigation bar in the Header, you can click on Contact Me or Resume that will take you to the bottom of the page for my contact info, GitHub page and a link to the resume.
 
 ## Screenshot
-![Alt text](./Assets/images/screencapture-file-Users-candacerobbins-Documents-UCF-Homework-Portfolio-index-html-2022-03-28-23_50_08.pdf "Screenshot")
+!["Screenshot of Portfolio"](./Assets/images/screencapture-canro2b-github-io-Portfolio-2022-03-29-17_40_44.pdf)
 
 
 ## Credits
@@ -40,6 +40,8 @@ Photo: Horiseon photo from GitHub, all rights reserved.
 
 
 #### Any questions or comments, please feel free to reach me:
+Candace Robbins
+Email: hofe36@hotmail.com
 
 
 
