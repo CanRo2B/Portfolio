@@ -22,11 +22,12 @@ header {
     display: flex;
     padding: 15px;
     justify-content: space-between;
-
+    background-color: #3705ad;
 }
 /* Name Color */
 h1 {
-    color: var(--Emphasis-color);
+    color: var(--color);
+
 }
 /* Heading info */
 h2 {
@@ -34,6 +35,10 @@ h2 {
     justify-self: flex-start;
     font-size: 35px;
     Padding: 5pt;
+}
+
+footer {
+    background-color: #3705ad;
 }
 
 /* Navigation bar flex-box info */
@@ -139,19 +144,13 @@ footer {
     color: var(--hover-color);
 }
 
-/* Parent to the About Me section */
-/* #About-Me {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-} */
-
 .About-Me-Row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    height: 200pt;
+    justify-content: space-around;
+    height: 250pt;
 }
 
 /* All with the About Me section */
@@ -160,38 +159,38 @@ footer {
     display:block;
     flex-direction: row;
     justify-content: center;
-    height: 200pt;
+    height: 250pt;
     width: 200pt;
-    padding: 10pt;
+    padding: 5pt;
 }
 
 #About-Me-text {
-    display: inline-block;
-    justify-content: flex-start;
-    margin-left: 0px;
+    display: flex;
     padding: 10pt;
-    flex-direction: row;
-    width: 300pt;
-    height: 300pt;
+    width: 33%;
+    height: 200pt;
     align-items: center;
-
+    margin-left: 20px;
+    flex-wrap: wrap;
     
 }
 
 #About-Me-text-cont {
-    display: inline-block;
-    flex-direction: row;
-    margin-right: 0px;
+    display: flex;
     padding: 10pt;
-    width: 300pt;
-    height: 300pt;
-    align-self: center;
+    width: 33%;
+    height: 200pt;
+    align-items: center;
+    margin-right: 20px;
+    flex-wrap: wrap;
 }
 
 /* Serenity lake picture size */
 #Container-background-image {
     height: 200pt;
     width: 100%;
+    border-top: var(--background-color) solid 8pt;
+    border-bottom: var(--hover-color) solid 8pt;
 }
 
 #Learning {
@@ -205,8 +204,13 @@ footer {
     color: var(--color);
 }
 
+/* Changed footer color to change it up.  Therefore, had to change the h2 color. */
+#Contact-Me{
+    color: #ffffff;
+}
+
 /* Different screen aspect */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     header,
     main {
       flex-direction: column;
@@ -221,4 +225,14 @@ footer {
         flex-wrap: wrap;
         margin-top: 2%;
     }   
+    
+    .About-Me-Row {
+        display:flex;
+        flex-direction: column;
+        height:auto;
+        width: 100%;
+    }
+
+
+
 }
