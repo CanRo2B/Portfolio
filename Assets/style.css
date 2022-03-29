@@ -1,9 +1,9 @@
 :root{
     --color: #ffffff;
-    --background-color: #0000ff;
-    --border-color:  #ffff00 ;
+    --background-color: #279bdf;
+    --border-color:  #e9e934 ;
     --hover-color: #3705ad;
-    --Emphasis-color: #ff0000de;
+    --Emphasis-color: #240772de;
 
 }
 
@@ -64,17 +64,15 @@ img {
     color: var(--border-color)
 }
 
+footer {
+    padding-bottom: 30px;
+}
+
 .container {
     position: relative;
     text-align: center;
     color: var(--color)
 }
-
-.About-me-pic {
-    display:flex;
-}
-
-
 
 .Learn-box {
     display:flex;
@@ -137,14 +135,36 @@ img {
     color: var(--hover-color);
 }
 
+#About-Me {
+    display: block;
+    flex-direction: row;
+    flex: 1 1 1;
+
+}
+
 #Personal-picture { 
+    border-radius: 3pt solid var(--hover-color);
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     height: 200pt;
     width: 200pt;
 }
 
 #About-Me-text {
-    padding-bottom: 40px;
-    float: right;
+    display: block;
+    margin-left: 0px;
+    overflow: auto;
+    flex-direction: row;
+    
+}
+
+#About-Me-text-cont {
+    display: block;
+    flex-direction: row;
+    margin-right: 0px;
+    overflow: auto;
 }
 
 #Container-background-image {
