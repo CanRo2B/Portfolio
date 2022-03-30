@@ -22,8 +22,8 @@ Note:  I have only created on project, titled "Learning".  Click on the picture 
 
 
 ## Links to Portfolio
-**[Website](https://canro2b.github.io/Portfolio/)**
-**[Github Link](https://github.com/CanRo2B)**
+- **[Website](https://canro2b.github.io/Portfolio/)**
+- **[Github Link](https://github.com/CanRo2B)**
 
 
 ## Credits
