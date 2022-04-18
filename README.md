@@ -14,7 +14,7 @@ This project is to work on our Portfolio.  This will help us store and showcase 
 
 ## How to Navigate the Portfolio Project
 In the header, I have created a Navigation bar.  You can hover and select the different text to move to an area on the screen.  The images below the Work heading will showcase the projects I have completed.  
-Note:  I have only created on project, titled "Learning".  Click on the picture to view the project.  The other four are stand alone images with no link.  In the Navigation bar in the Header, you can click on Contact Me or Resume that will take you to the bottom of the page for my contact info, GitHub page and a link to the resume.
+Note:  I have added on Homework, titled "Learning".  Click on the picture to view the homework, same as the project, gitGud.  Please click on the picture to go to the project.  The other three boxes are stand alone images with no link.  In the Navigation bar in the Header, you can click on Contact Me or Resume that will take you to the bottom of the page for my contact info, GitHub page and a link to the resume.
 
 ## Screenshot
 !["Screenshot of Portfolio"](./Assets/images/screencapture-canro2b-github-io-Portfolio-2022-03-29-19_19_32.png)
