@@ -149,6 +149,14 @@ footer {
     color: var(--color);
 }
 
+.Proj-2 {
+    color: var(--color);
+    text-align: center;
+    justify-content: center;
+    top: 40px;
+    font-size: 40px;
+}
+
 /*About Me parent section  */
 .About-Me-Row {
     display: flex;
